@@ -7,7 +7,7 @@ import Home from './Pages/home';
 import Events from './Pages/events';
 import Gallery from './Pages/gallery';
 import Team from './Pages/ourTeam';
-import Sponsers from './Pages/sponsers';
+import Sponsors from './Pages/sponsors';
 import SubCouncils from './Pages/subCouncils';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <Route path='/Events' element={<Events />} />
         <Route path='/Gallery' element={<Gallery />} />
         <Route path='/OurTeam' element={<Team />} />
-        <Route path='/Sponsers' element={<Sponsers />} />
+        <Route path='/Sponsors' element={<Sponsors />} />
         <Route path='/Sub-Councils' element={<SubCouncils />} />
       </Routes>
     </Router>
