@@ -6,6 +6,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import '../App.css';
 
+import adhyaay_logo from "../res/ADHYAAY_LOGO.png";
+import adhyaay_logo_white from "../res/ADHYAAY_LOGO_WHITE.png";
+
 const home = () => {
     const homeStyle = {
         height: '100vh',
@@ -15,20 +18,20 @@ const home = () => {
     const aboutStyle = {
         height: '400px',
         width: '100vw',
-        backgroundColor: 'blue',
+        backgroundColor: 'black',
     };
     return(
         <section>
             {/* NAVBAR */}
             <center>
                 <div style={homeStyle} className="d-flex align-items-center justify-content-center">
-                    <Image overflow="hidden" src="https://media-exp1.licdn.com/dms/image/C4D03AQE9C8alC_Atxw/profile-displayphoto-shrink_200_200/0/1634316038423?e=1658361600&v=beta&t=GM3k1G3MESgdUGbsKOSXdKzHmlxjYDoHywYrKxVAA7E" rounded/>
+                    <Image overflow="hidden" src={adhyaay_logo} rounded style={{height: "200px", width: "230px",}}/>
                 </div>
 
                 <div style={aboutStyle}>
                     <Container>
                         <Row>
-                            <Col style={{backgroundColor: "red", textAlign: "left",}} xs={8}>
+                            <Col style={{color: "white", textAlign: "left",}} xs={8}>
                                 <br></br><br></br><br></br>
                                 <h1 style={{fontSize: "65px",}}>About</h1>
                                 <br></br>
@@ -39,9 +42,9 @@ const home = () => {
                                 Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum 
                                 </p>
                             </Col>
-                            <Col style={{backgroundColor: "green", textAlign: "left", height: "400px",}}>
+                            <Col style={{textAlign: "left", height: "400px",}}>
                                 <div style={{height: "100%", width: "100%",}} className="d-flex align-items-center justify-content-center">
-                                <Image overflow="hidden" src="https://media-exp1.licdn.com/dms/image/C4D03AQE9C8alC_Atxw/profile-displayphoto-shrink_200_200/0/1634316038423?e=1658361600&v=beta&t=GM3k1G3MESgdUGbsKOSXdKzHmlxjYDoHywYrKxVAA7E" rounded/>
+                                <Image overflow="hidden" src={adhyaay_logo_white} rounded style={{height: "200px", width: "230px",}}/>
                                 </div>
                             </Col>
                         </Row>
