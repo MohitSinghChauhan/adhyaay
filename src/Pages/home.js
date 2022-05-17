@@ -13,7 +13,7 @@ const home = () => {
     const homeStyle = {
         height: '100vh',
         width: '100vw',
-        backgroundColor: 'lightblue',
+        backgroundColor: 'rgb(33, 29, 33)',
     };
     const aboutStyle = {
         height: '400px',
