@@ -20,6 +20,7 @@ const home = () => {
         width: '100vw',
         backgroundColor: 'black',
     };
+
     return(
         <section>
             {/* NAVBAR */}
