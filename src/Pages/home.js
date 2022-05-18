@@ -20,31 +20,32 @@ const home = () => {
         width: '100vw',
         backgroundColor: 'black',
     };
-    return (
+
+    return(
         <section>
             {/* NAVBAR */}
             <center>
                 <div style={homeStyle} className="d-flex align-items-center justify-content-center">
-                    <Image overflow="hidden" src={adhyaay_logo} rounded style={{ height: "200px", width: "230px", }} />
+                    <Image overflow="hidden" src={adhyaay_logo} rounded style={{height: "200px", width: "230px",}}/>
                 </div>
 
                 <div style={aboutStyle}>
                     <Container>
                         <Row>
-                            <Col style={{ color: "white", textAlign: "left", }} xs={8}>
+                            <Col style={{color: "white", textAlign: "left",}} xs={8}>
                                 <br></br><br></br><br></br>
-                                <h1 style={{ fontSize: "65px", }}>About</h1>
+                                <h1 style={{fontSize: "65px",}}>About</h1>
                                 <br></br>
-                                <p >Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                                <p >Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum 
+                                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum 
+                                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum 
+                                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum 
+                                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum 
                                 </p>
                             </Col>
-                            <Col style={{ textAlign: "left", height: "400px", }}>
-                                <div style={{ height: "100%", width: "100%", }} className="d-flex align-items-center justify-content-center">
-                                    <Image overflow="hidden" src={adhyaay_logo_white} rounded style={{ height: "200px", width: "230px", }} />
+                            <Col style={{textAlign: "left", height: "400px",}}>
+                                <div style={{height: "100%", width: "100%",}} className="d-flex align-items-center justify-content-center">
+                                <Image overflow="hidden" src={adhyaay_logo_white} rounded style={{height: "200px", width: "230px",}}/>
                                 </div>
                             </Col>
                         </Row>
