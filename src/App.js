@@ -3,8 +3,8 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import NavBar from "./Components/NavBar"
-import Footer from "./Components/Footer"
+// import NavBar from "./Components/NavBar"
+// import Footer from "./Components/Footer"
 
 import Home from './Pages/home';
 import Events0 from './Pages/events0';
@@ -16,7 +16,7 @@ import SubCouncils from './Pages/subCouncils';
 function App() {
   return (
     <Router>
-      <NavBar />
+      {/* <NavBar /> */}
       <Routes>
         <Route exact path='/' element={<Events0 />} />
         <Route exact path='/Events0' element={<Events0 />} />

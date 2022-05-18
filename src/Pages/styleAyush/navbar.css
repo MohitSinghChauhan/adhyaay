@@ -1,0 +1,14 @@
+.navbar {
+    width: auto;
+    background-color: rgba(140, 120, 120, 0.214);
+    top: 0;
+    position: fixed;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+
+.navLinks1:hover {
+    border-bottom: 2px solid red;
+}
