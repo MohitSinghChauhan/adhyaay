@@ -3,12 +3,12 @@ import "bootstrap/dist/css/bootstrap.css";
 import '../App.css';
 
 import Card from 'react-bootstrap/Card';
-import Container from "react-bootstrap/Container";
+// import Container from "react-bootstrap/Container";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import adhyaay_logo from "../res/ADHYAAY_LOGO.png";
-import { CardGroup } from 'react-bootstrap';
+// import { CardGroup } from 'react-bootstrap';
 
 const sponsors = () => {
     return(

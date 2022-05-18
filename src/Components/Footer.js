@@ -1,3 +1,4 @@
+import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
 import img from './assets/logo.png';
 
@@ -18,7 +19,6 @@ const Footer = () => {
                 </Row>
             </Container>
         </section>
-
     );
 }
 
