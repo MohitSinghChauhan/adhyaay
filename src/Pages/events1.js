@@ -45,7 +45,7 @@ const events1 = () => {
     );
 
     return(
-        <section className='eventStyle'>
+        <section className='eventStyle mainSection'>
             <span style={{fontSize: "60px"}}>EVENTS</span>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
             <span>

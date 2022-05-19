@@ -3,6 +3,9 @@
     width: 100%;
     background-color: rgb(33, 29, 33);
     color: white;
+}
+
+.mainSection {
     padding: 50px;
     padding-top: 80px;
 }
