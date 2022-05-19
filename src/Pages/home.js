@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 import '../App.css';
 
 import Footer from "../Components/Footer";
-import NavBar from "../Components/NavBar";
+// import NavBar from "../Components/NavBar";
 
 import adhyaay_logo from "../res/ADHYAAY_LOGO.png";
 import adhyaay_logo_white from "../res/ADHYAAY_LOGO_WHITE.png";
@@ -27,7 +27,7 @@ const home = () => {
 
     return (
         <section>
-            <NavBar />
+            {/* <NavBar /> */}
             <center>
                 <div style={homeStyle} className="d-flex align-items-center justify-content-center">
                     <Image overflow="hidden" src={adhyaay_logo} rounded style={{ height: "200px", width: "230px", }} />

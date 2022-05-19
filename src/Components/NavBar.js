@@ -1,14 +1,15 @@
 import React from "react"
 import { Navbar, Nav, Container } from 'react-bootstrap'
 import img from './assets/logo.png'
+import { Link } from 'react-router-dom'
 
 import '../Pages/styleAyush/navbar.css'
 
 const NavBar = () => {
     return (
-        <Navbar style={{ 'height': "8vh", 'position': "fixed", 'width': "100vw", 'color': "rgb(255,255,255)", }} variant="dark" expand="lg">
+        <Navbar style={{ 'position': "fixed", 'width': "100vw", 'color': "rgb(255,255,255)", }} variant="dark" expand="lg">
             <Container>
-                <Navbar.Brand style={{ 'font-size': "20px", }} align-items-center href="#home">
+                <Navbar.Brand style={{ 'font-size': "20px", }} align-items-center href="/">
                     <img
                         alt="img"
                         src={img}
@@ -20,12 +21,12 @@ const NavBar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav style={{ 'font-size': "10px", }} className="navLinks ms-auto">
-                        <Nav.Link className='navLinks1' href="#home">Home</Nav.Link>
-                        <Nav.Link className='navLinks1' href="#events">Events</Nav.Link>
-                        <Nav.Link className='navLinks1' href="#sponsors">Sponsors</Nav.Link>
-                        <Nav.Link className='navLinks1' href="#Gallery">Gallery</Nav.Link>
-                        <Nav.Link className='navLinks1' href="#subCouncils">Sub-Councils</Nav.Link>
-                        <Nav.Link className='navLinks1' href="#ourTeam">ourTeam</Nav.Link>
+                        <Link className='navLinks1' to="/" >Home</Link>
+                        <Link className='navLinks1' to="/events">Events</Link>
+                        <Link className='navLinks1' to="/sponsers">Sponsors</Link>
+                        <Link className='navLinks1' to="/gallery">Gallery</Link>
+                        <Link className='navLinks1' to="/subCouncils">Sub-Councils</Link>
+                        <Link className='navLinks1' to="/ourTeam">ourTeam</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
