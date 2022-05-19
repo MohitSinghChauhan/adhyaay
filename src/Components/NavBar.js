@@ -7,9 +7,9 @@ import '../Pages/styleAyush/navbar.css'
 
 const NavBar = () => {
     return (
-        <Navbar style={{ 'height': "8vh", 'position': "fixed", 'width': "100vw", 'color': "rgb(255,255,255)", }} variant="dark" expand="lg">
+        <Navbar style={{ 'position': "fixed", 'width': "100vw", 'color': "rgb(255,255,255)", }} variant="dark" expand="lg">
             <Container>
-                <Navbar.Brand style={{ 'font-size': "20px", }} align-items-center href="#home">
+                <Navbar.Brand style={{ 'font-size': "20px", }} align-items-center href="/">
                     <img
                         alt="img"
                         src={img}
