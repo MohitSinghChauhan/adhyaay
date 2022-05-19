@@ -16,12 +16,12 @@ import adhyaay_logo_white from "../res/ADHYAAY_LOGO_WHITE.png";
 const home = () => {
     const homeStyle = {
         height: '100vh',
-        width: '100vw',
+        width: '100%',
         backgroundColor: 'rgb(33, 29, 33)',
     };
     const aboutStyle = {
         height: '400px',
-        width: '100vw',
+        width: '100%',
         backgroundColor: 'black',
     };
 

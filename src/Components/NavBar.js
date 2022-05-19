@@ -21,12 +21,12 @@ const NavBar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav style={{ 'font-size': "10px", }} className="navLinks ms-auto">
-                        <Link className='navLinks1' to="/" >Home</Link>
-                        <Link className='navLinks1' to="/events">Events</Link>
-                        <Link className='navLinks1' to="/sponsers">Sponsors</Link>
-                        <Link className='navLinks1' to="/gallery">Gallery</Link>
-                        <Link className='navLinks1' to="/subCouncils">Sub-Councils</Link>
-                        <Link className='navLinks1' to="/ourTeam">ourTeam</Link>
+                        <Link className='navLinks1' to="/" >Home &nbsp;</Link>
+                        <Link className='navLinks1' to="/events0">Events &nbsp;</Link>
+                        <Link className='navLinks1' to="/sponsers">Sponsors &nbsp;</Link>
+                        <Link className='navLinks1' to="/gallery">Gallery &nbsp;</Link>
+                        <Link className='navLinks1' to="/subCouncils">Sub-Councils &nbsp;</Link>
+                        <Link className='navLinks1' to="/ourTeam">ourTeam &nbsp;</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

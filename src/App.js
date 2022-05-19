@@ -8,6 +8,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Home from './Pages/home';
 import Events0 from './Pages/events0';
+import Events1 from './Pages/events1';
+import Events2 from './Pages/events2';
 import Gallery from './Pages/gallery';
 import Team from './Pages/ourTeam';
 import Sponsors from './Pages/sponsors';
@@ -20,7 +22,9 @@ function App() {
       <NavBar/> 
       <Routes>
         <Route exact path='/' element={<Home />} />
-        <Route path='/events' element={<Events />} />
+        <Route path='/events0' element={<Events0 />} />
+        <Route path='/events1' element={<Events1 />} />
+        <Route path='/events2' element={<Events2 />} />
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/ourTeam' element={<Team />} />
         <Route path='/sponsers' element={<Sponsors />} />
