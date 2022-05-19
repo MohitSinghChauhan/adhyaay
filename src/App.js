@@ -12,18 +12,19 @@ import Gallery from './Pages/gallery';
 import Team from './Pages/ourTeam';
 import Sponsors from './Pages/sponsors';
 import SubCouncils from './Pages/subCouncils';
+import NavBar from './Components/NavBar';
 
 function App() {
   return (
     <Router>
-      {/* <NavBar /> */}
+      <NavBar/> 
       <Routes>
         <Route exact path='/' element={<Home />} />
-        <Route path='/Events' element={<Events />} />
-        <Route path='/Gallery' element={<Gallery />} />
-        <Route path='/OurTeam' element={<Team />} />
-        <Route path='/Sponsors' element={<Sponsors />} />
-        <Route path='/Sub-Councils' element={<SubCouncils />} />
+        <Route path='/events' element={<Events />} />
+        <Route path='/gallery' element={<Gallery />} />
+        <Route path='/ourTeam' element={<Team />} />
+        <Route path='/sponsers' element={<Sponsors />} />
+        <Route path='/subCouncils' element={<SubCouncils />} />
       </Routes>
       {/* <Footer /> */}
     </Router>
