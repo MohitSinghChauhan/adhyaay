@@ -1,9 +1,10 @@
 .eventStyle {
-    height: 100vh;
-    width: 100vw;
+    height: 6000px;
+    width: 100%;
     background-color: rgb(33, 29, 33);
     color: white;
     padding: 50px;
+    padding-top: 80px;
 }
 
 .dayChooserStyle {
@@ -11,6 +12,17 @@
     width: 100px;
     margin: 10px;
     padding: 10px;
+}
+
+.link {
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 50ms ease-in-out 25ms;
+}
+
+.link:hover {
+    color: white;
+    transform: translateY(-2px);
 }
 
 .dayChooserStyle:hover {
@@ -24,4 +36,19 @@
     background-color: #f7141b;
     margin: 10px;
     padding: 10px;
+}
+
+.eventsArea {
+    margin-top: 50px;
+    height: 1200px;
+    width: 90vw;
+}
+
+h1 {
+    color: #f7141b;
+    font-weight: 600;
+}
+
+h5 {
+    font-style: oblique;
 }
