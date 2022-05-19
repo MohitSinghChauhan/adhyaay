@@ -2,7 +2,7 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.css";
 import '../App.css';
 import '../Pages/style/events.css';
-import { Link, Outlet } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import Events0 from './events0';
 import Events2 from './events2';
@@ -15,15 +15,16 @@ const events1 = () => {
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
             <span>
                 <span className='dayChooserStyle'>
-                <Link to="/Event0">Day 0</Link>
+                <Link to="/Events0">Day 0</Link>
                 </span>
                 <span className='choosedDayStyle'>
                     Day 1
                 </span>
                 <span className='dayChooserStyle'>
-                <Link to="/Event2">Day 2</Link>
+                <Link to="/Events2">Day 2</Link>
                 </span>
             </span>
+            <p>PUSSY</p>
         </section>
     )
 }

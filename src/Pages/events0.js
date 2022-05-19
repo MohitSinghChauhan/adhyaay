@@ -1,8 +1,8 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.css";
-import '../App.css';
-import '../Pages/style/events.css';
-import { Link, Outlet } from 'react-router-dom';
+import './../App.css';
+import './../Pages/style/events.css';
+import { Link } from 'react-router-dom';
 
 import Events1 from './events1';
 import Events2 from './events2';
@@ -18,10 +18,10 @@ const events0 = () => {
                     Day 0
                 </span>
                 <span className='dayChooserStyle'>
-                    <Link to="/Event1">Day 1</Link>
+                    <Link to="/events1">Day 1</Link>
                 </span>
                 <span className='dayChooserStyle'>
-                    <Link to="/Event2">Day 2</Link>
+                    <Link to="/events2">Day 2</Link>
                 </span>
             </span>
         </section>

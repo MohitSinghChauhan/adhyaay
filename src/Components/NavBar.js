@@ -22,7 +22,7 @@ const NavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav style={{ 'font-size': "10px", }} className="navLinks ms-auto">
                         <Link className='navLinks1' to="/" >Home</Link>
-                        <Link className='navLinks1' to="/events">Events</Link>
+                        <Link className='navLinks1' to="/events0">Events</Link>
                         <Link className='navLinks1' to="/sponsers">Sponsors</Link>
                         <Link className='navLinks1' to="/gallery">Gallery</Link>
                         <Link className='navLinks1' to="/subCouncils">Sub-Councils</Link>
