@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import Footer from "./Components/Footer"
 
 import Home from './Pages/home';
-import Events from './Pages/events';
+import Events0 from './Pages/events0';
 import Gallery from './Pages/gallery';
 import Team from './Pages/ourTeam';
 import Sponsors from './Pages/sponsors';
